@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp">
+
+    <TextView
+        android:id="@+id/pokemonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/pokemonImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/purple_200"
+        android:contentDescription="pokemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonName"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/pokemonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="32dp"
+        android:text="ID"
+        android:textColor="@color/purple_200"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/pokemonImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/type1"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/type1"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Type 1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonImage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/type2"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="56dp"
+        android:background="@drawable/type2"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Type 2"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokemonImage"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/abilities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Habilidades"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/type1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ability1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Ability 1"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/abilities"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/ability2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:text="Ability 2"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ability1"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

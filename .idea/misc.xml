@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/border.xml" value="0.3828125" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/bug.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/dragon.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/electric.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/fairy.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/fire.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/flying.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/grass.xml" value="1.375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/ground.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/normal.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/type1.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/type2.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/venom.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/drawable/water.xml" value="0.209375" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/layout/activity_main.xml" value="0.291970802919708" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/layout/pokemon_card.xml" value="0.898876404494382" />
+        <entry key="..\:/Users/joaco/StudioProjects/Users/app/src/main/res/layout/pokemon_page.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
